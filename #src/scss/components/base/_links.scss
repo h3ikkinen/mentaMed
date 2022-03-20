@@ -1,0 +1,34 @@
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  &.white {
+    color: $white;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    &:before {
+      content: '';
+      background-color: $white;
+      height: 2px;
+      position: absolute;
+      transition: all 0.2s ease-in-out;
+
+      left: 0;
+      bottom: -2px;
+      width: 0;
+    }
+    &:hover {
+      color: $white;
+      &:before {
+        width: 100%;
+      }
+    }
+  }
+  &.email {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+  }
+}

@@ -1,0 +1,32 @@
+.header {
+  height: 60px;
+  background-color: $green;
+}
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header_links {
+    display: flex;
+    align-items: center;
+    .header_link {
+      margin-left: 2em;
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+  .right_info {
+    display: flex;
+    align-items: center;
+    .email {
+      margin-right: 1em;
+    }
+  }
+}

@@ -1,0 +1,324 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-box-shadow: 0;
+          box-shadow: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main {
+  min-height: calc(100vh - 120px);
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 15px;
+  cursor: pointer;
+  letter-spacing: 0.06em;
+}
+
+.btn.big {
+  padding: 15px 40px;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 0.06em;
+  width: 100%;
+  max-width: 365px;
+}
+
+.btn.orange_btn {
+  background: #f47457;
+  border: solid 2px #f47457;
+  color: #fff;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn.orange_btn:hover {
+  background: #fff;
+  color: #f47457;
+}
+
+.btn.blue_btn {
+  background: #5283cf;
+  border: solid 2px #5283cf;
+  color: #fff;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn.blue_btn:hover {
+  background: #fff;
+  color: #5283cf;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.link.white {
+  color: #fff;
+  position: relative;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.link.white:before {
+  content: '';
+  background-color: #fff;
+  height: 2px;
+  position: absolute;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+}
+
+.link.white:hover {
+  color: #fff;
+}
+
+.link.white:hover:before {
+  width: 100%;
+}
+
+.link.email {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+}
+
+.header {
+  height: 60px;
+  background-color: #1aa179;
+}
+
+.header_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.header_container .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header_container .header_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header_container .header_links .header_link {
+  margin-left: 2em;
+}
+
+.header_container .header_links .header_link:first-child {
+  margin-left: 0;
+}
+
+.header_container .right_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header_container .right_info .email {
+  margin-right: 1em;
+}
+
+.footer {
+  background: #1aa179;
+  height: 60px;
+}
+
+.footer .footer_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+.footer .footer_left {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.06em;
+  color: #fff;
+}
+
+.footer .footer_left div {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.06em;
+  color: #fff;
+}
+
+.footer .footer_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .footer_links .icon {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 30px;
+}
+
+.footer .footer_links .icon svg path {
+  fill: #fff;
+  -webkit-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.footer .footer_links .icon svg path.fillGreen {
+  fill: #1aa179 !important;
+}
+
+.footer .footer_links .icon:hover svg path {
+  fill: #f47457;
+  -webkit-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.footer .footer_links .icon:hover svg path.fillGreen {
+  fill: #1aa179 !important;
+}
+
+.main.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main.intro .intro_image {
+  width: 58%;
+}
+
+.main.intro .intro_image img {
+  width: 100%;
+  height: auto;
+}
+
+.main.intro .intro_block {
+  width: 37%;
+}
+
+.main.intro .btn {
+  margin-top: 2rem;
+}
+
+.main_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .intro_title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 136.4%;
+  letter-spacing: 0.04em;
+  color: #001C0B;
+}
+
+.main .intro_title span {
+  color: #1aa179;
+}
+
+.main .intro_text {
+  margin-top: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.04em;
+  color: #001308;
+}
+@supports (-webkit-appearance:none){
+
+}

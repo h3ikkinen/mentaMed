@@ -1,0 +1,45 @@
+.main {
+  &.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .intro_image {
+      width: 58%;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    .intro_block {
+      width: 37%;
+    }
+    .btn {
+      margin-top: 2rem;
+    }
+  }
+  &_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .intro_title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 136.4%;
+    letter-spacing: 0.04em;
+    color: $textBlack;
+    span {
+      color: $green;
+    }
+  }
+  .intro_text {
+    margin-top: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.04em;
+    color: #001308;
+  }
+}

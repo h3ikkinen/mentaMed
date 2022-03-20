@@ -1,0 +1,12 @@
+@import 'mixins';
+@import 'variables';
+@import 'fonts.scss';
+
+@import 'components/base/container';
+@import 'components/base/btns';
+@import 'components/base/links';
+
+@import 'components/base/header';
+@import 'components/base/footer';
+
+@import 'views/index';
