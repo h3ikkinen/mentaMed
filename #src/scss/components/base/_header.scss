@@ -28,5 +28,12 @@
     .email {
       margin-right: 1em;
     }
+    .btn {
+      &:hover {
+        background: $green;
+        color: $white;
+        border-color: $white;
+      }
+    }
   }
 }

@@ -178,6 +178,12 @@
   margin-right: 1em;
 }
 
+.header_container .right_info .btn:hover {
+  background: #1aa179;
+  color: #fff;
+  border-color: #fff;
+}
+
 .footer {
   background: #1aa179;
   height: 60px;
